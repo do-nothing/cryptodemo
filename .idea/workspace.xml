@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a43c2c3-6bad-41ea-9f4b-29a7b3db0f4f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aesdemo.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aes_test.go" afterPath="$PROJECT_DIR$/aes_test.go" />
     </list>
@@ -16,23 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="aes_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aes_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aes_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="43" />
-              <folding>
-                <element signature="e#14#101#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base64.go" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/encoding/base64/base64.go">
+      <file leaf-file-name="aesdemo.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aesdemo.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="383" column="21" lean-forward="false" selection-start-line="383" selection-start-column="21" selection-end-line="383" selection-end-column="21" />
+            <state relative-caret-position="462">
+              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -51,6 +50,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/aesdemo.go" />
         <option value="$PROJECT_DIR$/aes_test.go" />
       </list>
     </option>
@@ -92,6 +92,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cryptodemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cryptodemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -109,6 +119,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gopath\src\cryptodemo" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -121,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestAes in aes_test.go">
+  <component name="RunManager" selected="Go Single File.go run aesdemo.go">
     <configuration default="false" name="TestPointer in aes_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="cryptodemo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -140,6 +155,27 @@
       <kind value="PACKAGE" />
       <package value="cryptodemo" />
       <pattern value="^TestAes$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in 'cryptodemo'" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="cryptodemo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="cryptodemo" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run aesTest.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="cryptodemo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/aesTest.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run aesdemo.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="cryptodemo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/aesdemo.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -554,14 +590,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Test.TestPointer in aes_test.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Test.TestAes in aes_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.All in 'cryptodemo'" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run aesTest.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run aesdemo.go" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestAes in aes_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestPointer in aes_test.go" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run aesdemo.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestAes in aes_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run aesTest.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.All in 'cryptodemo'" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestPointer in aes_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -575,13 +617,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528268923324</updated>
-      <workItem from="1528268924805" duration="2980000" />
+      <workItem from="1528268924805" duration="3880000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAes_in_aes_test_go - 2018.06.06 at 15h 12m 44s.xml">
-      <configuration name="TestAes in aes_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="All_in_'cryptodemo' - 2018.06.06 at 16h 21m 59s.xml">
+      <configuration name="All in 'cryptodemo'" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestAes_in_aes_test_go - 2018.06.06 at 15h 37m 43s.xml">
       <configuration name="TestAes in aes_test.go" configurationId="GoTestRunConfiguration" />
@@ -604,15 +646,15 @@
     <history-entry file="TestAes_in_aes_test_go - 2018.06.06 at 16h 16m 47s.xml">
       <configuration name="TestAes in aes_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPointer_in_aes_test_go - 2018.06.06 at 15h 09m 26s.xml">
-      <configuration name="TestPointer in aes_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAes_in_aes_test_go - 2018.06.06 at 16h 31m 13s.xml">
+      <configuration name="TestAes in aes_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPointer_in_aes_test_go - 2018.06.06 at 15h 11m 08s.xml">
-      <configuration name="TestPointer in aes_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAes_in_aes_test_go - 2018.06.06 at 16h 32m 03s.xml">
+      <configuration name="TestAes in aes_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2980000" />
+    <option name="totallyTimeSpent" value="3880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -627,7 +669,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="LuaCheck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -656,7 +698,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -670,11 +714,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aes_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="e#14#101#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aesdemo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
